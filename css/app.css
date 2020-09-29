@@ -1,0 +1,141 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url(sw.jpg);
+}
+
+h1 {
+  margin-top: 30px;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+p {
+  padding: 20px;
+  width: fit-content;
+  width: -moz-max-content;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.75);
+  background-color: #0c041c;
+  border-radius: 10px;
+}
+
+.div-container {
+  text-align: center;
+}
+
+.options {
+  color: white;
+}
+
+button {
+  border: none;
+  padding: 10px 15px;
+  font-size: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.75);
+  background-color: #0c041c;
+  transition: opacity 0.4s ease-out, transform 0.4s ease-out,
+    visibility 0.4s ease-out;
+  margin-top: 10px;
+}
+
+button:focus {
+  outline: 0;
+}
+
+select:focus {
+  outline: 0;
+}
+button:hover {
+  background-color: #034f66;
+}
+
+.quote--para-container {
+  display: flex;
+  justify-content: center;
+}
+
+#quote-type,
+#quote-counter {
+  margin-left: 20px;
+  color: white;
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.75);
+  background-color: #0c041c;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#quote-box {
+  margin-top: 20px;
+  color: white;
+}
+
+@media only screen and (max-width: 620px) {
+  h1 {
+    font-size: 40px;
+    color: #0c041c;
+  }
+  h2 {
+    font-size: 22px;
+    color: #0c041c;
+  }
+  select {
+    font-size: 16px;
+  }
+
+  p {
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.15);
+  }
+
+  body {
+    background-color: #fff;
+    background-image: none;
+  }
+
+  #quote-type,
+  #quote-counter {
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.15);
+  }
+
+  button {
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.15);
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  select {
+    font-size: 14px;
+  }
+
+  p {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+}
