@@ -1,10 +1,4 @@
 # Create a quotation generator - Openclassrooms
-Did you just get started with JavaScript? Great! Practicing with concrete projects will help you monumentally on your way to becoming a JavaScript/frontend developer. 
-
-This first project was specially designed for those new to the JavaScript programming and algorithms. Your objective will be both simple and fun: you will build a random quote generator! The quotes will be randomly constructed by assembling different pieces of a sentence.
-
-Create a quotation generator full of random words!
-Create a quotation generator!
 Step 1: Random quotes
 There are plenty of text generators online. Google "quote generator," and you will find many sites that randomly generate quotes by assembling sentence fragments.
 
